@@ -1,0 +1,24 @@
+{
+    "1": {
+        "mcq": "multiple choice question",
+        "options": {
+            "a": "choice here",
+            "b": "choice here",
+            "c": "choice here",
+            "d": "choice here"
+        },
+        "correct": "correct answer"
+    },
+    "2":
+        {
+            "three_marks_questions": "three_marks_questions",
+            "type": "short_answer",
+            "question": "Three marks question here"
+        },
+    "3": 
+        {
+            "five_marks_questions": "five_marks_questions",
+            "type": "long_answer",
+            "question": "Five marks question here"
+        }
+}
