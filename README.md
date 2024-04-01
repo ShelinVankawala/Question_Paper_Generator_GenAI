@@ -1,10 +1,10 @@
-# MCQGen
+# Question_Paper_Generator_GenAI
 
-MCQGen is a project developed by [Your Name] as part of the OpenAI project. The goal of this project is to generate multiple-choice questions (MCQs) using natural language processing techniques.
+MCQGen is a project as part of the OpenAI project. The goal of this project is to generate multiple-choice questions (MCQs) and 3 & % marks questions using Generative AI and Langchain techniques.
 
 ## Features
 
-- Utilizes state-of-the-art NLP models to generate MCQs
+- Utilizes state-of-the-art GenAI models to generate MCQs and questions
 - Supports various question types, including factual, inference-based, and opinion-based questions
 - Provides options for customizing the difficulty level and complexity of the generated questions
 - Offers an intuitive command-line interface for easy usage
@@ -12,7 +12,7 @@ MCQGen is a project developed by [Your Name] as part of the OpenAI project. The 
 ## Installation
 
 1. Clone the repository: `https://github.com/ShelinVankawala/Question_Paper_Generator_GenAI.git`
-2. Navigate to the project directory: `cd mQuestion_Paper_Generator_GenAI`
+2. Navigate to the project directory: `cd Question_Paper_Generator_GenAI`
 3. Install the required dependencies: `pip install -r requirements.txt`
 
 ## Usage
@@ -24,7 +24,7 @@ MCQGen is a project developed by [Your Name] as part of the OpenAI project. The 
 
 ## Contributing
 
-Contributions are welcome! If you would like to contribute to MCQGen, please follow these steps:
+Contributions are welcome! If you would like to contribute to Question_Paper_Generator_GenAI, please follow these steps:
 
 1. Fork the repository
 2. Create a new branch: `git checkout -b feature/your-feature-name`
