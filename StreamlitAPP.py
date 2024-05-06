@@ -13,7 +13,7 @@ from src.mcqgenerator.MCQGenerator import generate_evaluate_chain
 with open('Response.json', 'r') as file: 
           RESPONSE_JSON = json.load(file)
 #creating a title for the app
-st.title("MCQs Creator Application with LangChain ")
+st.title("Questions Creator Application with LangChain ")
 #Create a form using st.form 
 with st.form("user_inputs"):
     uploaded_file=st.file_uploader("Uplaod a PDF or txt file")
@@ -26,7 +26,7 @@ with st.form("user_inputs"):
     # Quiz Tone
     TONE=st.text_input("Complexity Level of Questions", max_chars=20, placeholder="Simple")
     #Add Button
-    button=st.form_submit_button("Create MCQs")
+    button=st.form_submit_button("Generate Questions")
     # Check if the button is clicked and all fields have input
     if button and uploaded_file is not None and MCQ_NUMBER and THREE_MARKS_NUMBER and FIVE_MARKS_NUMBER and SUBJECT and TONE: 
         with st.spinner("loading..."):
