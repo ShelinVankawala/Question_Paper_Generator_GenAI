@@ -1,6 +1,6 @@
-# MCQGen
+# Question_Paper_Generator_GenAI
 
-MCQGen is a project developed by [Your Name] as part of the OpenAI project. The goal of this project is to generate multiple-choice questions (MCQs) using natural language processing techniques.
+Question Paper Generator is a project as part of the OpenAI project. The goal of this project is to generate multiple-choice questions (MCQs) and 3 & 5 marks questions using Generative AI and Langchain techniques.
 
 ## Features
 
